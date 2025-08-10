@@ -3,52 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>T.A.F Transport - ETS2</title>
+    <title>T.A.F Transport</title>
     <style>
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
+            margin: 0;
+            background-color: #f9f9f9;
             color: #222;
         }
         header {
             background-color: #111;
             color: white;
-            padding: 20px;
             text-align: center;
+            padding: 20px;
         }
         header img {
-            max-height: 100px;
+            max-height: 120px;
         }
         nav {
             background-color: #ff6600;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
+            text-align: center;
             padding: 10px;
         }
         nav a {
             color: white;
+            margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
         }
         section {
-            padding: 30px;
+            padding: 20px;
             max-width: 1000px;
             margin: auto;
         }
-        h2 {
-            color: #ff6600;
+        .gallery img {
+            width: 300px;
+            margin: 10px;
+            border-radius: 8px;
         }
-        form {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            max-width: 400px;
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
         }
         form input, form textarea, form button {
+            display: block;
+            width: 100%;
+            margin: 8px 0;
             padding: 10px;
-            font-size: 1rem;
         }
         form button {
             background-color: #ff6600;
@@ -56,21 +60,17 @@
             border: none;
             cursor: pointer;
         }
-        footer {
-            background-color: #111;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 30px;
+        form button:hover {
+            background-color: #e65c00;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <img src="c8c99df2-6aba-44b8-a8d1-c96dd2a72d0a.png" alt="Logo T.A.F Transport">
-    <h1>Bienvenue chez T.A.F Transport</h1>
-    <p>Entreprise virtuelle sur Euro Truck Simulator 2</p>
+    <img src="c8c99df2-6aba-44b8-a8d1-c96dd2a72d0a.png" alt="T.A.F Transport Logo">
+    <h1>T.A.F Transport</h1>
+    <p>Entreprise virtuelle sur ETS2 - Transport de qualité</p>
 </header>
 
 <nav>
@@ -81,37 +81,39 @@
 </nav>
 
 <section id="accueil">
-    <h2>À propos</h2>
-    <p>T.A.F Transport est une entreprise virtuelle sur ETS2 dédiée au transport efficace et au plaisir de la simulation routière. Nous participons à des convois réguliers, utilisons des skins personnalisés et privilégions la bonne ambiance.</p>
+    <h2>Bienvenue chez T.A.F Transport</h2>
+    <p>Nous sommes une entreprise virtuelle spécialisée dans le transport routier sur Euro Truck Simulator 2. Notre objectif : offrir un service efficace et un esprit d’équipe solide.</p>
 </section>
 
 <section id="recrutement">
-    <h2>Recrutement</h2>
-    <p>Rejoignez notre équipe ! Remplissez le formulaire ci-dessous :</p>
+    <h2>Rejoindre notre équipe</h2>
+    <p>Remplis le formulaire ci-dessous pour postuler :</p>
     <form>
-        <input type="text" placeholder="Nom en jeu" required>
-        <input type="text" placeholder="ID TruckersMP" required>
-        <input type="email" placeholder="Email" required>
-        <textarea placeholder="Pourquoi voulez-vous nous rejoindre ?" required></textarea>
-        <button type="submit">Envoyer</button>
+        <input type="text" placeholder="Nom du joueur" required>
+        <input type="number" placeholder="Âge" required>
+        <textarea placeholder="Pourquoi voulez-vous nous rejoindre ?" rows="4" required></textarea>
+        <button type="submit">Envoyer la candidature</button>
     </form>
 </section>
 
-<section id="galerie">
+<section id="galerie" class="gallery">
     <h2>Galerie</h2>
-    <p>Ajoutez ici des photos de vos camions et de vos convois.</p>
+    <p>Voici quelques images de nos convois :</p>
+    <img src="https://via.placeholder.com/300x200.png?text=Camion+1" alt="Camion 1">
+    <img src="https://via.placeholder.com/300x200.png?text=Camion+2" alt="Camion 2">
+    <img src="https://via.placeholder.com/300x200.png?text=Camion+3" alt="Camion 3">
 </section>
 
 <section id="contact">
     <h2>Contact</h2>
-    <p>📧 Email : seulementpourmatablette@gmail.com</p>
-    <p>💬 Discord : <a href="#">https://discord.gg/kynCwGdzE5</a></p>
- 
+    <p>Email : <a href="mailto:seulementpourmatablette@gmail.com">seulementpourmatablette@gmail.com</a></p>
+    <p>Discord : <a href="https://discord.gg/kynCwGdzE5" target="_blank">Rejoindre notre serveur</a></p>
 </section>
 
 <footer>
-    <p>&copy; 2025 T.A.F Transport - ETS2</p>
+    <p>&copy; 2025 T.A.F Transport - Tous droits réservés</p>
 </footer>
 
 </body>
+</html>
 </html>
