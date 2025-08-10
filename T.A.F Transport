@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T.A.F Transport - ETS2</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #222;
+        }
+        header {
+            background-color: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-height: 100px;
+        }
+        nav {
+            background-color: #ff6600;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #ff6600;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+        }
+        form input, form textarea, form button {
+            padding: 10px;
+            font-size: 1rem;
+        }
+        form button {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="c8c99df2-6aba-44b8-a8d1-c96dd2a72d0a.png" alt="Logo T.A.F Transport">
+    <h1>Bienvenue chez T.A.F Transport</h1>
+    <p>Entreprise virtuelle sur Euro Truck Simulator 2</p>
+</header>
+
+<nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#recrutement">Recrutement</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="accueil">
+    <h2>À propos</h2>
+    <p>T.A.F Transport est une entreprise virtuelle sur ETS2 dédiée au transport efficace et au plaisir de la simulation routière. Nous participons à des convois réguliers, utilisons des skins personnalisés et privilégions la bonne ambiance.</p>
+</section>
+
+<section id="recrutement">
+    <h2>Recrutement</h2>
+    <p>Rejoignez notre équipe ! Remplissez le formulaire ci-dessous :</p>
+    <form>
+        <input type="text" placeholder="Nom en jeu" required>
+        <input type="text" placeholder="ID TruckersMP" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Pourquoi voulez-vous nous rejoindre ?" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+<section id="galerie">
+    <h2>Galerie</h2>
+    <p>Ajoutez ici des photos de vos camions et de vos convois.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email : contact@taf-transport.fr</p>
+    <p>💬 Discord : <a href="#">https://discord.gg/kynCwGdzE5</a></p>
+ 
+</section>
+
+<footer>
+    <p>&copy; 2025 T.A.F Transport - ETS2</p>
+</footer>
+
+</body>
+</html>
